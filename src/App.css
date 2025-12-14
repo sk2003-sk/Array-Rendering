@@ -1,0 +1,131 @@
+#root {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+button {
+  width: 80px;
+  height: 30px;
+  border-radius: 24px;
+  border: 1px solid lightgray;
+  margin: 10px 0px 0px 44px;
+}
+button img {
+  width: 10px;
+  height: 10px;
+}
+.main-heading {
+  padding: 20px 0 10px 40px;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+
+.restaurents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin: 40px;
+}
+
+.item-card {
+  width: 300px;
+  transition: transform 0.25s ease;
+  cursor: pointer;
+}
+
+.item-card:hover {
+  transform: scale(1.03);
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 14px;
+  background-color: black;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.bottom-text p {
+  color: white;
+}
+
+.item-card h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin: 10px 0 6px 0;
+}
+
+.info-section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.info-section p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.fav-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.info-section ul {
+  list-style: none;
+  margin: 4px 0px 14px 0px;
+  padding: 0;
+}
+
+.info-section ul li {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+}
+
+.item-card > p,
+.item-card p {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-top: 4px;
+}
+
+.item-card p:last-child {
+  font-size: 13px;
+  color: #8a8a8a;
+}
